@@ -16,6 +16,38 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 28px;
+    }
+    .banner-content p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .banner-img{
+        width: 100%;
+        padding: 51px 33px 16px 22px;
+    }
+    .banner-img img{
+        padding: 0 50px;
+    } 
+
+    .social-image-container{
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .social-image-container img{
+        margin-right: 20px;
+        width: 60px;
+    }
 }
 
 /* Responsive for tablet or medium devices */
@@ -23,7 +55,8 @@
     .nav-container{
         flex-direction: column;
     }
-    .nav-title-container h3{
+    .nav-title-container h3, 
+    .banner-content{
         text-align: center; 
     }
     .nav-items-container{
@@ -31,5 +64,24 @@
         text-align: center;
         justify-content: space-between;
     }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 38px;
+    }
     
+    .social-image-container{
+        width: 600px;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .social-image-container img{
+        margin-right: 20px;
+    }
 }
