@@ -64,7 +64,7 @@
         gap: 30px;
     }
     .feature-img, .feature-content{
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
     .feature-content h2{
@@ -116,7 +116,7 @@
         gap: 30px;
     }
     .feature-img, .feature-content{
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 }

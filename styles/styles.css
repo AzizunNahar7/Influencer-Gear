@@ -168,3 +168,24 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
+
+/* Footer section styles */
+footer{
+    background: #0A0826;
+    margin-top: 100px;
+}
+.footer-container{
+    text-align: center;
+    padding: 50px 0;
+    color: #FFF;
+}
+.footer-container h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.footer-icons{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 16px;
+}
