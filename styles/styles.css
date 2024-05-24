@@ -88,7 +88,7 @@ body{
 
 /* Popular section styles */
 .popular-section{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto; 
 }
 .card-container{
@@ -137,4 +137,34 @@ body{
     font-weight: 700;
     text-align: end;
     margin-bottom: 100px;
+}
+
+/* Feature section start here */
+.feature-section{
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.feature-img{
+    width: 40%;  
+}
+.feature-img img{
+    width: 100%;
+    height: auto;
+}
+.feature-content{
+    width: 60%;
+}
+.feature-content h2{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-content p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
 }

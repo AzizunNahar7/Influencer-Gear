@@ -43,11 +43,34 @@
     .social-image-container{
         flex-wrap: wrap;
         margin-top: 0px;
+        margin-bottom: 50px;
     }
     .social-image-container img{
         margin-right: 20px;
         width: 60px;
     }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .popular-section-title{
+        font-size: 16px;
+    }
+
+    .see-more{
+        margin-bottom: 30px;
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .feature-img, .feature-content{
+        width: 100%;
+        text-align: center;
+    }
+    .feature-content h2{
+        font-size: 24px;
+    }
+    
 }
 
 /* Responsive for tablet or medium devices */
@@ -80,8 +103,20 @@
         width: 600px;
         flex-wrap: wrap;
         margin-top: 0px;
+        margin-bottom: 80px;
     }
     .social-image-container img{
         margin-right: 20px;
+    }
+    .see-more{
+        margin-bottom: 30px;
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .feature-img, .feature-content{
+        width: 100%;
+        text-align: center;
     }
 }
