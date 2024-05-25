@@ -82,6 +82,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 134px;
 }
@@ -146,22 +147,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 100px;
 }
 .feature-img{
-    width: 40%;  
+    width: 50%;
+    padding: 20px;  
 }
 .feature-img img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .feature-content{
-    width: 60%;
+    width: 50%;
 }
 .feature-content h2{
     color: #0A0826;
     font-size: 38px;
     font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .feature-content p{
     color: #6C6C6C;

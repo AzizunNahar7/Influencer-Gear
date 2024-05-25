@@ -1,3 +1,51 @@
+/* Responsive for tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-title-container h3, 
+    .banner-content{
+        text-align: center; 
+    }
+    .nav-items-container{
+        padding: 0;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 38px;
+    }
+    
+    .social-image-container{
+        width: 600px;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    .social-image-container img{
+        margin-right: 20px;
+    }
+    .see-more{
+        margin-bottom: 30px;
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .feature-img, .feature-content{
+        width: 80%;
+        text-align: center;
+    }
+}
+
 /* Responsive for mobile devices */
 @media screen and (max-width:576px) {
     .nav-container, 
@@ -67,56 +115,12 @@
         width: 80%;
         text-align: center;
     }
+    .feature-img{
+        width: 100%;
+    }
     .feature-content h2{
         font-size: 24px;
     }
     
 }
 
-/* Responsive for tablet or medium devices */
-@media screen and (min-width:576px) and (max-width:960px){
-    .nav-container{
-        flex-direction: column;
-    }
-    .nav-title-container h3, 
-    .banner-content{
-        text-align: center; 
-    }
-    .nav-items-container{
-        padding: 0;
-        text-align: center;
-        justify-content: space-between;
-    }
-
-    .banner-container{
-        flex-direction: column-reverse;
-        margin-top: 20px;
-    }
-    .banner-content{
-        width: 100%;
-    }
-    .banner-content h1{
-        font-size: 38px;
-    }
-    
-    .social-image-container{
-        width: 600px;
-        flex-wrap: wrap;
-        margin-top: 0px;
-        margin-bottom: 80px;
-    }
-    .social-image-container img{
-        margin-right: 20px;
-    }
-    .see-more{
-        margin-bottom: 30px;
-    }
-    .feature-section{
-        flex-direction: column-reverse;
-        gap: 30px;
-    }
-    .feature-img, .feature-content{
-        width: 80%;
-        text-align: center;
-    }
-}
